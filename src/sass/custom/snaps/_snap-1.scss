@@ -1,0 +1,171 @@
+.planeta {
+  position: fixed;
+  left: -154px;
+  top: 23%;
+  background-image: url('../images/Recurso2.png');
+  background-repeat: no-repeat;
+  height: 463px;
+  width: 365px;
+  z-index: 100;
+  background-position: -67px -28px;
+  background-size: 155%;
+}
+.snap-1 {
+  text-align: center;
+  position: relative;
+
+  h1 {
+    color: #0177D2;
+    font-size: 3.5em;
+  }
+
+  div p { color: #014581; }
+
+  .n2016 p {
+    background-color: #014581;
+    color: white;
+    font-size: 5.5em;
+    font-weight: 900;
+    margin-left: -210px;
+    margin-bottom: 0;
+
+    span {
+      font-size: .5em;
+    }
+  }
+
+  .mexichen p {
+    background-image: url('../images/Recurso17.png');
+    background-repeat: no-repeat;
+    margin-top: 0;
+    color: #0177D2;
+    height: 70px;
+    margin-left: -210px;
+    background-position: 115px 0;
+    padding-top: 5px;
+    line-height: .9;
+
+    span {
+      color: #014581;
+
+      &.mexichen {
+        font-size: 4em;
+        color: #0177D2;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .icono-hands {
+    background-image: url('../images/Recurso1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 458px;
+    height: 458px;
+    background-position: center;
+    background-size: 100%;
+    bottom: -160px;
+    right: 245px;
+  }
+}
+
+.snap-2 {
+  position: relative;
+
+  .description {
+    .wrapper {
+      background-image: url('../images/Recurso25.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 55%;
+      margin-top: 60px;
+
+      p {
+        width: 630px;
+        margin: 0 auto;
+        color: white;
+        padding: 35px 0;
+        text-align: justify;
+        font-size: 1.4em;
+        line-height: .95;
+
+        strong { color: #81DDF2; }
+      }
+    }
+  }
+
+  .content {
+    max-width: 700px;
+    margin: 0 auto;
+
+    .involucraron {
+      background-image: url('../images/Recurso26.png');
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: 100%;
+      width: 190px;
+      height: 74px;
+
+      p {
+        text-align: center;
+        color: white;
+        line-height: .9;
+        margin-top: 60px;
+        padding-top: 6px;
+      }
+
+      .n1965 {
+        font-size: 3.7em;
+      }
+    }
+
+    .colaboradores {
+      width: 445px;
+      color: #014581;
+      margin-left: 35px;
+      font-size: 3em;
+      line-height: .9;
+
+      .txt-colaboradores {
+        font-weight: 700;
+      }
+
+      .n2016-2 {
+        font-size: .5em;
+        float: right;
+
+        strong {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+
+  .amigos-4 {
+    background-image: url('../images/Recurso3.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 270px;
+    width: 380px;
+    margin: 0 auto;
+    z-index: 100;
+    position: absolute;
+    bottom: -75px;
+    right: 305px;
+    background-size: 85%;
+  }
+}
+
+.div-1 {
+  text-align: center;
+  background-color: #9B9B9B;
+  color: white;
+  float: left;
+  width: 100%;
+  font-size: 2em;
+  padding: 35px 0;
+  margin-top: 10px;
+  font-weight: 600;
+
+  p { margin: 0; }
+}
